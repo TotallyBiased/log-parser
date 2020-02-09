@@ -1,7 +1,7 @@
 {
   "name": "log-parser",
   "version": "1.0.0",
-  "description": "parse common file logs",
+  "description": "Parse combined log format files",
   "main": "./src/index.js",
   "license": "MIT",
   "private": true,
