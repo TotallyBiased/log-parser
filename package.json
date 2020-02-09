@@ -1,0 +1,21 @@
+{
+  "name": "log-parser",
+  "version": "1.0.0",
+  "description": "parse common file logs",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./main.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "watch": "nodemon ./src/index.js localhost 8080",
+    "start": "node ./src/index.js"
+  },
+  "devDependencies": {}
+}
